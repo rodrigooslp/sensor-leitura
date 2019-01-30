@@ -1,0 +1,27 @@
+{
+  "name": "sensor-leitura-web",
+  "version": "1.0.0",
+  "description": "Aplicação simples de consumo da api do sensor-leitura.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development parcel src/index.html --open",
+    "build": "cross-env NODE_ENV=production parcel build src/index.html"
+  },
+  "author": "Rodrigo Lopes <dslp.rodrigo@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.5.2",
+    "moment": "^2.24.0",
+    "vue": "^2.5.22",
+    "vue-hot-reload-api": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.5.1",
+    "cross-env": "^5.2.0",
+    "parcel-bundler": "^1.11.0",
+    "sass": "^1.16.1",
+    "standard": "^12.0.1",
+    "vue-template-compiler": "^2.5.22"
+  }
+}
